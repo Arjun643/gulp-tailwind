@@ -91,8 +91,6 @@ function watchFiles() {
     open: true,
     notify: false
   });
-
-  // Watch HTML files
   gulp.watch([
     'src/pages/**/*.html',
     'src/layout/**/*.html',
