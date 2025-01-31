@@ -1,0 +1,23 @@
+{
+  "name": "tailwind-gulp-project",
+  "version": "1.0.0",
+  "description": "Tailwind CSS with Gulp project",
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp build"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.4.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.17",
+    "browser-sync": "^2.29.3",
+    "cssnano": "^6.0.3",
+    "gulp": "^4.0.2",
+    "gulp-ejs": "^5.1.0",
+    "gulp-file-include": "^2.3.0",
+    "gulp-postcss": "^9.0.1",
+    "postcss": "^8.4.35",
+    "rimraf": "^6.0.1"
+  }
+}
