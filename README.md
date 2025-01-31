@@ -60,7 +60,7 @@ cd gulp-tailwind-project
 
 2. Install dependencies:
 ```bash
-npm install
+npm install / pnpm install 
 ```
 
 ## 🛠 Configuration Guide
@@ -185,9 +185,11 @@ Create basic template structure:
 
 | Command | Description |
 |---------|-------------|
+| `pnpm run dev`|
 | `npm run dev` | Start development server with live reload |
 | `npm run build` | Create production build |
 | `npm run clean` | Clean the dist directory |
+| `pnpm run build` 
 
 Add these scripts to your `package.json`:
 ```json
